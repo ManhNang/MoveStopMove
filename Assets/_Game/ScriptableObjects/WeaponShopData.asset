@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 693edff9915d8104084972008b2866f1, type: 3}
+  m_Name: WeaponShopData
+  m_EditorClassIdentifier: 
+  weaponsItem:
+  - name: Boomerang 1
+    weaponType: 2
+    prefabs: {fileID: 7279362560109390703, guid: 3ca4dcfd99cfe8f4da31601878192855, type: 3}
+    cost: 100
+  - name: Boomerang 2
+    weaponType: 3
+    prefabs: {fileID: 3309118201434587213, guid: 1d1ec1cf739703941b56442037d8d093, type: 3}
+    cost: 200
+  - name: Boomerang 3
+    weaponType: 4
+    prefabs: {fileID: 6703376214207643163, guid: 3e992ccc2fceda542852b7c39634ab10, type: 3}
+    cost: 300
+  - name: Candy 1
+    weaponType: 5
+    prefabs: {fileID: 7856294049157814140, guid: c227b33aa39c6674ea9a0c1261748e6a, type: 3}
+    cost: 400
+  - name: Candy 2
+    weaponType: 6
+    prefabs: {fileID: 8186380549516474510, guid: fcab7240de574ac489138e47933c055a, type: 3}
+    cost: 500
+  - name: Candy 3
+    weaponType: 7
+    prefabs: {fileID: 4913505832872864256, guid: cffd561f249ba0940ac99b0b3c3ab210, type: 3}
+    cost: 600
+  - name: Hammer 1
+    weaponType: 8
+    prefabs: {fileID: 3025298875285085981, guid: a1de1638e14d5934ab5f19fbd4b1e566, type: 3}
+    cost: 700
+  - name: Hammer 2
+    weaponType: 9
+    prefabs: {fileID: 1060278186681129927, guid: 592647b16baac1c46997a65f05bc868b, type: 3}
+    cost: 800
+  - name: Hammer 3
+    weaponType: 10
+    prefabs: {fileID: 7392238355694771318, guid: 776511782bcb50b4aa1194a704625d7b, type: 3}
+    cost: 900
